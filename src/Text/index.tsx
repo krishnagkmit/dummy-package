@@ -6,7 +6,9 @@ interface TextProps {
 }
 
 function Text({ text }: TextProps) {
-  return <Typography.Text className="text-xl">{text}</Typography.Text>;
+  return (
+    <Typography.Text className="text-xl text-red-600">{text}</Typography.Text>
+  );
 }
 
 export default Text;

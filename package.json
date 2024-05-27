@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "postcss src/styles.css -o dist/styles.css",
     "prebuild": "npm run build:css",
-    "build": "npx tsc --diagnostics"
+    "build": "npx tsc"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
