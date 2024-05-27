@@ -7,7 +7,8 @@
   "scripts": {
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "postcss src/styles.css -o output.css",
+    "build:css": "postcss src/styles.css -o dist/styles.css",
+    "prebuild": "npm run build:css",
     "build": "npx tsc --diagnostics"
   },
   "publishConfig": {
