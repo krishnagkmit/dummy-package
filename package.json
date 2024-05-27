@@ -1,0 +1,36 @@
+{
+  "name": "dummy-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",
+    "build:css": "postcss src/styles.css -o output.css",
+    "build": "tsc && vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "antd": "^5.17.4",
+    "autoprefixer": "^10.4.19",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@vitejs/plugin-react": "^4.3.0",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.11",
+    "vite-tsconfig-paths": "^4.3.2"
+  }
+}
