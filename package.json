@@ -2,7 +2,8 @@
   "name": "@krishnagkmit/dummy-package",
   "version": "1.0.1",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/dummy-package.umd.js",
+  "module": "dist/dummy-package.mjs",
   "scripts": {
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
