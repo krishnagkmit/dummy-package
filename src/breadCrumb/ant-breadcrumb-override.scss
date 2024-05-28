@@ -3,17 +3,22 @@
     .ant-breadcrumb-separator {
       @apply mx-0.5;
     }
+
     .ant-breadcrumb-link {
       @apply capitalize;
+
       button {
         @apply capitalize;
       }
     }
+
     li {
       @apply cursor-pointer font-semibold;
     }
+
     li:last-child {
       @apply cursor-not-allowed select-none font-normal;
+
       button {
         @apply focus:outline-none;
       }

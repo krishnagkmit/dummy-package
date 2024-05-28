@@ -1,4 +1,4 @@
-import { type ComponentType, type ElementType } from "react";
+import React, { ComponentType, ElementType } from "react";
 import { Breadcrumb as AntBreadcrumb } from "antd";
 import "./ant-breadcrumb-override.scss";
 
